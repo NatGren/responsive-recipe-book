@@ -1,10 +1,22 @@
 html {
   font: normal 100%/1.3 sans-serif;
+  font-family: utopia-std, serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 body {
   margin: 0;
   background-color: #fff;
+}
+
+.home {
+  text-align: left;
+  text-decoration: none;
+}
+
+.box {
+  overflow: hidden;
 }
 
 header {
@@ -15,6 +27,25 @@ header::after {
   content: '';
   display: table;
   clear: both;
+}
+
+li {
+  font-family: utopia-std, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.red {
+  color: #000;
+}
+
+.home {
+  text-decoration: none;
+  color: #D20000;
+  font-family: amaranth, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
 }
 
 nav {
@@ -38,6 +69,9 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+  font-family: utopia-std, serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 nav a:hover {
@@ -68,18 +102,31 @@ h1 {
   margin: 0 0 .5rem;
   font-size: 1.5rem;
   color: #D20000;
+  font-family: amaranth, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 h2 {
   color: #D20000;
+  font-family: amaranth, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 h3 {
   color: #fff;
+  font-family: amaranth, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 p {
   color: #D20000;
+  font-family: utopia-std, serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .brief {
@@ -130,5 +177,6 @@ p {
 }
 
 footer {
-  background: #000;
+  background: #ccc;
+  color: #ccc;
 }
